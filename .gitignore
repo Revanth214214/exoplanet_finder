@@ -218,3 +218,40 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment
+venv/
+env/
+.exoplanet/
+.conda/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Dataset
+dataset/
+data/
+*.csv
+
+# Artifacts
+artifacts/
+logs/
+
+# Models
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
