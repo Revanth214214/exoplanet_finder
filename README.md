@@ -65,5 +65,5 @@ full pipeline:
 
 Dataset =>Star,Period,Duration,Label => use starid to download light curve => Using period and transit time => fold the light curve=> convert into local view and global view => feed to cnn => CNN learns planet and not-planet shape => gives ouput probability of being a planet or not
           
-          
+The Global View captures orbit-level context such as secondary eclipses and other periodic patterns, while the Local View zooms into the transit event itself and captures the shape of the dip. Combining both helps the CNN distinguish real exoplanet transits from eclipsing binaries and instrumental artefacts.
           
